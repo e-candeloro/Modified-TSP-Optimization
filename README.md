@@ -1,12 +1,17 @@
 # Modified-TSP-Optimization
 This is the first homework done for the course of Automated Decision Making (2021-2022) at the University of Modena and Reggio Emilia.
-In the Python script (and also notebook) a modified TSP optimization problem is solved using Gurobi and other common scientific libraries such as Pandas.
+It consists of a Python script (and also a notebook used for debugging purposes) that executes modified TSP optimization algorithm, using Gurobi and other common scientific libraries such as Pandas.
 
 ### Setup
-Consider a directed acyclic graph **G = (V, A)** with vertex set **V = {0, 1, . . . , n − 1}**.
+Consider a directed asymmetric graph **G = (V, A)** with vertex set **V = {0, 1, . . . , n − 1}**.
 - Vertex 0 is a depot
 - Let **c : A → Z** denote the cost of the arcs
 - Let **p : V → Z** denote the profit of the vertices
+### Example of a directed asymmetric graph
+![output](https://user-images.githubusercontent.com/67196406/165792843-c756c402-be05-426d-bc05-72b41c240ec2.png)
+
+NB: Vertex profits are represented by the blue dot dimension while the arches costs were not printed due to the high number of them. The arrows show the direction of each arch.
+
 ### Objective of the homework
 **The problem asks to find a tour that starts and terminates in
 the depot, visist a (sub)set S ⊆ V of the vertices and
