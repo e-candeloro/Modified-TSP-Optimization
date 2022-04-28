@@ -73,4 +73,4 @@ Optimal tour: **(0, 1, 3)**
 Optimal cost: **98**
 
 ## ADDITIONAL INFO
-All additional info can be found in the repositoty pdf files, as well as the notebook ipynb and Python script plus the csv datasets.
+All the additional info can be found in the repository pdf files, as well as the notebook (.ipynb) and Python (.py) script plus the csv files for some of the graph data used.
